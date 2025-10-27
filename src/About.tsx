@@ -1,7 +1,15 @@
+import HeaderSection from "./HeaderSection";
+
 export default function About() {
     return (
         <>
-            <div>hello this is the about page</div>
+            <HeaderSection header={
+                "About Us"
+                } 
+                subHeader={
+                    "Potomac Natural Gardens is a local company comitted to delivering you quality and beautiful native gardens."
+                    } 
+            />
         </>
     );
 }
