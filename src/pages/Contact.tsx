@@ -1,4 +1,4 @@
-import Paragraph from "./Paragraph";
+import Paragraph from "../components/Paragraph";
 
 export default function Contact() {
     const iframeUrl = import.meta.env.VITE_IFRAME_URL;

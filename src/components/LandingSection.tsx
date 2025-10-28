@@ -1,6 +1,25 @@
 import { Link } from "react-router-dom";
-import type LandingSectionInterface from "./interfaces/LandingSectionInterface";
+import type LandingSectionInterface from "../interfaces/LandingSectionInterface";
 
+/**
+Renders the main landing section of the site, typically used as the top hero area.
+This component displays a prominent header, an optional subheader, and up to two
+call-to-action buttons. While primarily intended for the home page, it is reusable
+for other marketing or introductory sections if needed.
+@component
+@example
+<LandingSection
+header="Welcome to My Application"
+subHeader="Your all-in-one project and session management tool."
+btnOne={{ label: "Get Started", href: "/signup" }}
+btnTwo={{ label: "Learn More", href: "/about" }}
+/>
+@param {Object} props - Component props.
+@param {string} props.header - The main headline text.
+@param {string} [props.subHeader] - Optional secondary text displayed under the header.
+@param {{ label: string; href: string }} [props.btnOne] - Optional primary button configuration.
+@param {{ label: string; href: string }} [props.btnTwo] - Optional secondary button configuration.
+*/
 export default function LandingSection({ header, subHeader, btnOne, btnTwo }: LandingSectionInterface) {
     return (
         <>

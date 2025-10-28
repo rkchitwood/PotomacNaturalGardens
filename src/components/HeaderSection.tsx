@@ -1,5 +1,19 @@
-import type HeaderSectionInterface from "./interfaces/HeaderSectionInterface";
+import type HeaderSectionInterface from "../interfaces/HeaderSectionInterface";
 
+/**
+
+HeaderSection component
+Displays a page or section header with an optional subheader.
+Commonly used at the top of content sections to provide structure and context.
+@param {HeaderSectionInterface} props - The component props.
+@param {string} props.header - The main header text.
+@param {string} [props.subHeader] - Optional subheader text displayed below the header.
+@example
+<HeaderSection
+header="Why Microservices?"
+subHeader="Understanding the shift away from monoliths"
+/>
+*/
 export default function HeaderSection({header, subHeader}: HeaderSectionInterface) {
     return (
         <div className="relative isolate overflow-hidden bg-emerald-400 py-24 sm:py-32">

@@ -1,4 +1,4 @@
-import type NavInterface from "./interfaces/NavInterface";
+import type NavInterface from "../interfaces/NavInterface";
 import { Link } from "react-router-dom";
 
 export default function NavBase({ linkLabels }: NavInterface) {

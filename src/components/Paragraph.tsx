@@ -1,4 +1,4 @@
-import type ParagraphInterface from "./interfaces/ParagraphInterface";
+import type ParagraphInterface from "../interfaces/ParagraphInterface";
 
 /**
  * A simple, reusable paragraph component for rendering formatted text content.

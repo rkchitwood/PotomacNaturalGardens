@@ -1,4 +1,4 @@
-import HeaderSection from "./HeaderSection";
+import HeaderSection from "../components/HeaderSection";
 
 export default function About() {
     return (

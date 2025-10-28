@@ -1,11 +1,10 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
-import NavBar from './Navbar'
-import Home from './Home'
-import About from './About'
-import Contact from './Contact'
-import Gallery from './Gallery'
-
+import NavBar from './navigation/NavBar'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Gallery from './pages/Gallery'
 
 function App() {
 
