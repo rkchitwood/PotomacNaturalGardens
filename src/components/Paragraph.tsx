@@ -14,6 +14,7 @@ import type ParagraphInterface from "../interfaces/ParagraphInterface";
  *
  * @param {ParagraphInterface} props - The props for the Paragraph component.
  * @param {string} props.content - The text content to be displayed within the paragraph.
+ * @author Ryan Chitwood
  */
 export default function Paragraph({  content } : ParagraphInterface) {
 

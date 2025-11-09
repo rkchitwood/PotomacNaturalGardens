@@ -22,6 +22,7 @@ import ParagraphSection from "./Paragraph";
  * @param {ParagaphContainerInterface} props - The component props.
  * @param {string} props.header - The header text for the section.
  * @param {string[]} props.paragraphs - The array of paragraph strings to render.
+ * @author Ryan Chitwood
  */
 export default function ParagraphContainer({header, paragraphs}: ParagaphContainerInterface) {
     return (

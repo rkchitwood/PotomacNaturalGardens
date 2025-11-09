@@ -10,7 +10,7 @@ for other marketing or introductory sections if needed.
 @example
 <LandingSection
 header="Welcome to My Application"
-subHeader="Your all-in-one project and session management tool."
+subHeader="It can do so many things!"
 btnOne={{ label: "Get Started", href: "/signup" }}
 btnTwo={{ label: "Learn More", href: "/about" }}
 />
@@ -19,6 +19,7 @@ btnTwo={{ label: "Learn More", href: "/about" }}
 @param {string} [props.subHeader] - Optional secondary text displayed under the header.
 @param {{ label: string; href: string }} [props.btnOne] - Optional primary button configuration.
 @param {{ label: string; href: string }} [props.btnTwo] - Optional secondary button configuration.
+@author Ryan Chitwood
 */
 export default function LandingSection({ header, subHeader, btnOne, btnTwo }: LandingSectionInterface) {
     return (

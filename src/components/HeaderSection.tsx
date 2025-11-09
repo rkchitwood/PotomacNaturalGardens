@@ -10,9 +10,10 @@ Commonly used at the top of content sections to provide structure and context.
 @param {string} [props.subHeader] - Optional subheader text displayed below the header.
 @example
 <HeaderSection
-header="Why Microservices?"
-subHeader="Understanding the shift away from monoliths"
+header="Welcome"
+subHeader="What can we do for you?"
 />
+@author Ryan Chitwood
 */
 export default function HeaderSection({header, subHeader}: HeaderSectionInterface) {
     return (
