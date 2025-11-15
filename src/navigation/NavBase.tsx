@@ -16,7 +16,7 @@ export default function NavBase({ linkLabels }: NavInterface) {
               className="flex items-center rounded-md px-3 py-2 text-sm font-medium text-white hover:bg-white/5 hover:text-white"
             >
               <img
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
+                src="public/PngLogoPlaceholder.png"
                 alt="PNG Logo"
                 className="h-8 w-auto"
               />
