@@ -56,7 +56,7 @@ jobs:
       - name: Zip build output
         run: zip -r swa-artifact.zip dist
       - name: Upload artifact for inspection
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: swa-artifact
           path: swa-artifact.zip
