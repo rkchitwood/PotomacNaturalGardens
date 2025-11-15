@@ -53,6 +53,14 @@ jobs:
           output_location: "dist" # Built app content directory - optional
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
+      - name: Zip build output
+        run: zip -r swa-artifact.zip dist
+      - name: Upload artifact for inspection
+        uses: actions/upload-artifact@v3
+        with:
+          name: swa-artifact
+          path: swa-artifact.zip
+
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
