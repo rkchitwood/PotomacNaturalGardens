@@ -54,6 +54,7 @@ jobs:
           github_id_token: ${{ steps.idtoken.outputs.result }}
           ###### End of Repository/Build Configurations ######
       - name: Zip build output
+        working-directory: ${{ github.workspace }}
         run: zip -r swa-artifact.zip dist
       - name: Upload artifact for inspection
         uses: actions/upload-artifact@v4
